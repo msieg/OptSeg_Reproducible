@@ -121,7 +121,7 @@ def estimate_response(pos, freq, phon_length, arousal):
 Next we randomly sample 2 lists of 100 unique words (200 total words) from the Subtlex database and generate a table summarizing the features that we are aiming to control (Table 1), as well as baseline estimates of the average LIFG activity (PSC) for each list based on the functions we defined above (Figure 1). 
 
 
-```{python, echo=False, message=False, warning=False}
+```{python, echo=False, message=False, warning=False, results='hide', quietly=True}
 import numpy as np 
 import random
 import matplotlib.pyplot as plt
