@@ -6,7 +6,7 @@ OptSeg is a tool for optimally segmenting stimuli into matched lists. This GitHu
 
 ### How to run
 
-Simply clone this repo and execute the bash script **run_experiment.sh** from the command line. 
+Simply clone this repo and execute the bash script **run_experiment.sh** from the command line to install the python package requirements and simulate the neuroscience experiment. 
 
 e.g. 
 
