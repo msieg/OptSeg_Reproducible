@@ -12,4 +12,6 @@ e.g.
 
 git clone https://github.com/msieg/OptSeg_Reproducible.git
 
+cd OptSeg_Reproducible
+
 bash run_experiment.sh
