@@ -1,0 +1,11 @@
+ipython
+pweave
+matplotlib
+numpy
+scipy
+umap-learn
+pandas
+cmudict
+nltk
+
+
