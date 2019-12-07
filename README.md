@@ -8,4 +8,8 @@ OptSeg is a tool for optimally segmenting stimuli into matched lists. This GitHu
 
 Simply clone this repo and execute the bash script **run_experiment.sh** from the command line. 
 
-e.g. git clone 
+e.g. 
+
+git clone https://github.com/msieg/OptSeg_Reproducible.git
+
+bash run_experiment.sh
