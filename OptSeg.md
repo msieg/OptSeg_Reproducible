@@ -138,9 +138,13 @@ nltk.download('cmudict')
 import sklearn
 import math
 import colorsys
+import pickle
 
-df = pd.read_csv('glove.6B.300d.txt', sep=" ", quoting=3, header=None, index_col=0)
-word_gloves = {key: val.values for key, val in df.T.items()}
+#df = pd.read_csv('glove.6B.300d.txt', sep=" ", quoting=3, header=None, index_col=0) -->
+#word_gloves = {key: val.values for key, val in df.T.items()}
+
+with open('gloves_optseg.pkl', 'rb') as f:
+    word_gloves=pickle.load(f)
 
 #read excel file
 subtlex = pd.read_excel('SUBTLEX.xlsx')
